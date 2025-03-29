@@ -1,0 +1,26 @@
+total 48
+drwxr-x---+ 24 typhoon  staff   768 Mar 29 14:18 .
+drwxr-xr-x  10 root     admin   320 Mar 25 13:09 ..
+-r--------   1 typhoon  staff     7 Mar 25 16:30 .CFUserTextEncoding
+-rw-r--r--@  1 typhoon  staff  6148 Mar 27 16:37 .DS_Store
+drwx------+  6 typhoon  staff   192 Mar 27 17:15 .Trash
+-rw-r--r--   1 typhoon  staff    21 Mar 27 15:03 .gitconfig
+-rw-------@  1 typhoon  staff    40 Mar 29 14:18 .lesshst
+drwxr-xr-x@  3 typhoon  staff    96 Mar 25 17:41 .npm
+drwx------   6 typhoon  staff   192 Mar 25 17:36 .ssh
+drwxr-xr-x@  5 typhoon  staff   160 Mar 25 17:09 .vscode
+-rw-------@  1 typhoon  staff  3825 Mar 29 14:12 .zsh_history
+drwx------   7 typhoon  staff   224 Mar 27 17:56 .zsh_sessions
+drwx------+  9 typhoon  staff   288 Mar 27 16:39 Desktop
+drwx------+  3 typhoon  staff    96 Mar 25 13:09 Documents
+drwx------+  3 typhoon  staff    96 Mar 25 13:09 Downloads
+drwx------@ 83 typhoon  staff  2656 Mar 27 13:46 Library
+drwx------   4 typhoon  staff   128 Mar 27 13:43 Movies
+drwx------+  3 typhoon  staff    96 Mar 25 13:09 Music
+drwx------+  4 typhoon  staff   128 Mar 25 16:30 Pictures
+drwxr-xr-x   3 typhoon  staff    96 Mar 27 16:24 Projects
+drwxr-xr-x+  4 typhoon  staff   128 Mar 25 13:09 Public
+-rw-r--r--   1 typhoon  staff     0 Mar 27 16:24 file.txt
+-rw-r--r--   1 typhoon  staff     0 Mar 27 16:25 file1.txt
+-rw-r--r--   1 typhoon  staff     0 Mar 27 16:25 file2.txt
+Sat Mar 29 14:34:11 +08 2025
