@@ -1,13 +1,14 @@
 # Boolean Logic
 
-a = 10
-b = 20
+a = 5
+b = -1
 
 # boolean type
 print(a == b)   
 print(a > b)
 print(a < b)
-
+print(5 > 5)    # false
+print(5 >= 5)   # True
 
 
 # Нөхцөл шалгах - if, elif, else statement
