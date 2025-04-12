@@ -10,6 +10,6 @@ print("you flipped heads: " + str(is_heads))
 
 # 4 shirheg hoolnii tsugluulga list uusgeed tvvniigee random oor hewleh
 
-food_list = ['tsuvan','tahia shol', 'huushuur']
+food_list = ['tsuvan','tahia shol', 'huushuur', "buuz", "budaatai huurga"]
 food_list = random.choice(food_list)
 print("Your food:" + str(food_list))
