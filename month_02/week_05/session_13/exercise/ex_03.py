@@ -11,7 +11,6 @@ file.write("""Зааварчилгаа:
 
 
 def count_words(sample_text):
-    
     try:
         word_counts = count_words('sample_text.txt')
         print("Үгийн давтамжууд:")
