@@ -16,13 +16,9 @@ def process_data(data):
     try:
         dataaa = int(data)
         return dataaa
-        
-        # print(dataaa)
     
     except ValueError:
         raise ValueError("Bolowsruulalt amjiltgvi bolson")
-        # print("ValueError Bolowsruulj bna...")
-
 
 def exercise_4():
     """
