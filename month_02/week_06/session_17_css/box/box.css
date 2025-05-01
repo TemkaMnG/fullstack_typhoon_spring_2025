@@ -1,0 +1,43 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(160, 145, 174);
+    padding: 30px;
+    margin: 10px;
+    align-content: center;
+    margin: auto;
+}
+#text{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(210, 41, 60);
+    padding: 20px;
+    border: 15px dashed rgb(29, 179, 41);
+    border-bottom: 10px solid black;
+    border-right: 10px solid green;
+    margin: auto;
+    align-content: center;
+
+}
+.big{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(169, 25, 119);
+    overflow: hidden;
+    overflow: scroll;
+    margin: auto;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: darkviolet;
+    margin: 20px;
+    border-radius: 50% 20%;
+    box-shadow: ;
+}
+.shadow1{
+    box-shadow: 15px 15px gray;
+}
+.shadow2{
+    box-shadow: 15px 15px 15px gray;
+}
