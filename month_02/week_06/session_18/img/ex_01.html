@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ex_01 {
+            border: black 4px solid;
+            display: inline-block;
+        }
+
+        .ex_01:hover {
+            border: rgb(181, 35, 35) 4px solid;
+            filter: grayscale(100%);
+        }
+
+        .imggg img{
+            border-radius: 50%;
+        }
+
+        .imgg img{
+            box-shadow: 10px 10px 20px yellow;
+        }
+        .imgt img{
+            border: dashed;
+        }
+
+        /* zurgiin naana text oruulah css */
+        figure{
+            position: relative;
+            width: auto;
+            margin: 0;
+        }
+        .imgq{
+            width: 100%;
+            height: auto;
+            display: block;
+        
+        }
+        .fig{
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .black img{
+            filter: grayscale(100%);
+        }
+        .black img:hover {
+            filter: none;
+        }
+        .nature img{
+           object-fit:fill;
+           width: 200px;
+           height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ex_01">
+        <img src="./download (1).jpeg" alt="">
+    </div>
+    <div class="imggg">
+        <img width="200px" height="200px" src="./download (1).jpeg" alt="">
+    </div>
+    <div class="imgg">
+        <img src="./download (1).jpeg" alt="">
+    </div>
+    <!-- <--- zurgiin naana text oruulah--->
+    <div class="imgt">
+        <img src="./download (1).jpeg" alt="">
+        <figure>
+            <figcaption class="fig">
+                Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. 
+            </figcaption>
+            <img class="imgq" title="th" src="./download (1).jpeg" alt="">
+        </figure>
+    </div>
+
+    <div class="black">
+        <img src="./download (1).jpeg" alt="">
+    </div>
+
+    <div class="nature">
+        <img src="./istockphoto-517188688-1024x1024.jpg" alt="">
+    </div>
+</body>
+
+</html>
