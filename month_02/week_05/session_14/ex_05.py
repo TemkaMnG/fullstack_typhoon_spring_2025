@@ -15,8 +15,17 @@ def safe_open_file(filename):
     2. Алдаа гарвал None буцаах, амжилттай бол файлын объектыг буцаах
     """
     # Энд кодоо бичнэ үү
-    pass
-
+    try:
+        file = open("example.txt", "r")
+        content = file.read()
+        print(content)
+    except FileNotFoundError:
+        print("File baihgvi bolgoo!")
+    except PermissionError:
+        print("Permisiion bvtkve!")
+    except IsADirectoryError:
+        print("filename нь файл биш")
+    
 
 def exercise_5():
     """
