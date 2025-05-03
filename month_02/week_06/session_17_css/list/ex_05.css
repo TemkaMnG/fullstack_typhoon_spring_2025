@@ -1,0 +1,20 @@
+.tableedit a {
+    color: blue;
+    list-style-type: square;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.tableedit li {
+    display: inline;
+}
+
+.tableedit a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.tableedit a:active {
+    color: yellow;
+    text-decoration: underline;
+}

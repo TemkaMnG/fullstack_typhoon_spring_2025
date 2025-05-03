@@ -1,4 +1,4 @@
-.box{
+.box {
     width: 400px;
     height: 400px;
     background-color: rgb(160, 145, 174);
@@ -7,7 +7,8 @@
     align-content: center;
     margin: auto;
 }
-#text{
+
+#text {
     width: 200px;
     height: 300px;
     background-color: rgb(210, 41, 60);
@@ -19,7 +20,8 @@
     align-content: center;
 
 }
-.big{
+
+.big {
     width: 600px;
     height: 500px;
     background-color: rgb(169, 25, 119);
@@ -27,7 +29,8 @@
     overflow: scroll;
     margin: auto;
 }
-.square{
+
+.square {
     width: 200px;
     height: 200px;
     background-color: darkviolet;
@@ -35,9 +38,11 @@
     border-radius: 50% 20%;
 
 }
-.shadow1{
+
+.shadow1 {
     box-shadow: 15px 15px gray;
 }
-.shadow2{
+
+.shadow2 {
     box-shadow: 15px 15px 15px gray;
 }
