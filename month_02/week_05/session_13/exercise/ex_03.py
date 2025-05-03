@@ -7,6 +7,9 @@ file.write("""Зааварчилгаа:
     3. Үр дүнг давтамжаар нь эрэмбэлж хэвлэнэ үү (хамгийн их давтагдсан үгүүд эхэндээ)
     4. Том, жижиг үсгийг ялгахгүй ('Word' ба 'word'-г ижил үг гэж үзнэ)
     . Үндсэн цэг, таслалуудыг арилгана уу""")
+
+
+
 def count_words(sample_text):
     try:
         word_counts = count_words('sample_text.txt')
@@ -16,4 +19,4 @@ def count_words(sample_text):
         print("Алдаа: 'sample_text.txt' файл олдсонгүй.")
         print("Энэ програмыг ажиллуулахын өмнө текст агуулсан энэ файлыг үүсгэнэ үү.")
 
-count_words("sample_text: count_words")
+count_words()

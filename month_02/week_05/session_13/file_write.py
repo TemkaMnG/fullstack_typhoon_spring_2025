@@ -13,3 +13,4 @@ file.close()
 file = open('log.txt', 'a')
 file.write('New Log Entry \n')
 file.close()
+

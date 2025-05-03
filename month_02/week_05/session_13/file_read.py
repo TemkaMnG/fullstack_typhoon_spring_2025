@@ -16,7 +16,8 @@ file.close()
 # 'b' - Binary mode
 # 't' - Text mode (default)
 # '+' - update (read and Write)
-# 
+
+
 # file read line by Line
 file = open('file_intro.md', 'r')
 for i in range(8):

@@ -106,6 +106,6 @@ text = "Hello, World!"
 # list comprehension
 vowels = [char for char in text if char.lower() in "aeiou"]
 print(vowels)   # ['e', 'o', 'o']
-# temdegt muriin hurwvvlehs
+# temdegt muriin hurwvvleh
 uppercase = [char.upper() for char in text]
 print(uppercase)    # ['H E L L O    W O R L D !]
