@@ -1,0 +1,105 @@
+.back_color{
+    background: #442686;
+}
+.box1{
+    position: absolute;
+    width: 360px;
+    height: 720px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #261351;
+    box-shadow: 0px 4px 90px 0px rgba(0, 0, 0, 0.12);
+    margin-top: 237px;
+    margin-left: 281px;
+}
+.box2{
+    position: absolute;
+    width: 360px;
+    height: 720px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #261351;
+    box-shadow: 0px 4px 90px 0px rgba(0, 0, 0, 0.12);
+    margin-top: 123px;
+    margin-left: 802px;
+}
+.hhh{
+    color: #FFF;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.hh{
+    color: #FFF;
+    text-align: center;
+    font-family: "";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.8px; /* 140% */
+}
+.but{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    border-radius: 8px;
+    background: #EB7F63;    
+    margin-left: 30px;
+}
+.but_text{
+    width: 139px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "League Spartan";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.menu_back{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    display: inline-flex;
+    padding: 4px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 22px;
+    margin-left: 22px;
+}
+
+.menu_logo{
+    width: 28px;
+    height: 28px;
+    margin-top: 26px;
+    margin-left: 26px;
+    position: absolute;
+}
+
+.eclips{
+    position: absolute;
+    fill: linear-gradient(180deg, #817EFF 0%, #4700DA 100%);
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-left: 296px;
+    margin-top: 13px;
+}
+.fish{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    margin-left: 304px;
+    margin-top: 20px;
+}

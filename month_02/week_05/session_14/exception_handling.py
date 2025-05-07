@@ -9,7 +9,7 @@ y = 0
 
 if x == 5:
     print('Hello')
-        
+
 print('Next line')
 
 # Division by Zero
@@ -103,7 +103,7 @@ try:
 except ValueError:
     print("ValueError bolowsruulj baina....")
     # aldaag damjuulah
-   # raise
+    # raise
 
 # uur aldaa uusgeh:
 
@@ -126,7 +126,7 @@ except ValueError as e:
  #   raise RuntimeError("Bolowsruulalt amjiltgvi bolson") from e
     print(e)
 
-    
+
 # Traceback modul  ashiglah:
 
 import traceback

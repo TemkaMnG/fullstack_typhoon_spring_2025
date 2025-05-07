@@ -9,31 +9,33 @@ def safe_open_file(filename):
 
     Даалгавар:
     1. Дараах алдаануудыг зохих ёсоор барих:
-       - FileNotFoundError: Файл олдохгүй үед
-       - PermissionError: Файлыг нээх эрх хүрэлцэхгүй үед
-       - IsADirectoryError: filename нь файл биш, хавтас байх үед
+        - FileNotFoundError: Файл олдохгүй үед
+        - PermissionError: Файлыг нээх эрх хүрэлцэхгүй үед
+        - IsADirectoryError: filename нь файл биш, хавтас байх үед
     2. Алдаа гарвал None буцаах, амжилттай бол файлын объектыг буцаах
     """
     # Энд кодоо бичнэ үү
     try:
-        file = open("example.txt", "r")
+        file = open("test.txt", 'r')
         content = file.read()
         print(content)
     except FileNotFoundError:
-        print("File baihgvi bolgoo!")
+        print("File alga sugaa!")
     except PermissionError:
-        print("Permisiion bvtkve!")
+        print("File neeh erh hvreltsehgvi bna sugaa!")
     except IsADirectoryError:
-        print("filename нь файл биш")
-    
+        print("filename n bish bna, folder bna sugaa!")
+    else:
+        print()
 
-def exercise_5():
-    """
-    safe_open_file функцийг турших.
 
-    Даалгавар:
-    1. Байхгүй файл, хавтас, эрх хүрэлцэхгүй файлуудаар туршилт хийх
-    2. Амжилттай нээгдсэн файлын агуулгыг хэвлэх
-    """
-    # Энд кодоо бичнэ үү
-    pass
+# def exercise_5():
+#     """
+#     safe_open_file функцийг турших.
+
+#     Даалгавар:
+#     1. Байхгүй файл, хавтас, эрх хүрэлцэхгүй файлуудаар туршилт хийх
+#     2. Амжилттай нээгдсэн файлын агуулгыг хэвлэх
+#     """
+#     # Энд кодоо бичнэ үү
+#     pass
