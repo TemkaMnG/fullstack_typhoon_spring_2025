@@ -1,7 +1,8 @@
-.back_color{
+.back_color {
     background: #442686;
 }
-.box1{
+
+.box1 {
     position: absolute;
     width: 360px;
     height: 720px;
@@ -12,7 +13,8 @@
     margin-top: 237px;
     margin-left: 281px;
 }
-.box2{
+
+.box2 {
     position: absolute;
     width: 360px;
     height: 720px;
@@ -23,25 +25,29 @@
     margin-top: 123px;
     margin-left: 802px;
 }
-.hhh{
+
+.hhh {
     color: #FFF;
     text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
-.hh{
+
+.hh {
     color: #FFF;
     text-align: center;
     font-family: "";
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
-    line-height: 23.8px; /* 140% */
+    line-height: 23.8px;
+    /* 140% */
 }
-.but{
+
+.but {
     display: flex;
     width: 300px;
     height: 50px;
@@ -50,10 +56,11 @@
     align-items: center;
     /* gap: 10px; */
     border-radius: 8px;
-    background: #EB7F63;    
+    background: #EB7F63;
     margin-left: 30px;
 }
-.but_text{
+
+.but_text {
     width: 139px;
     flex-shrink: 0;
     color: #FFF;
@@ -64,7 +71,8 @@
     font-weight: 600;
     line-height: normal;
 }
-.menu_back{
+
+.menu_back {
     width: 28px;
     height: 28px;
     position: absolute;
@@ -78,7 +86,7 @@
     margin-left: 22px;
 }
 
-.menu_logo{
+.menu_logo {
     width: 28px;
     height: 28px;
     margin-top: 26px;
@@ -86,7 +94,7 @@
     position: absolute;
 }
 
-.eclips{
+.eclips {
     position: absolute;
     fill: linear-gradient(180deg, #817EFF 0%, #4700DA 100%);
     width: 28px;
@@ -95,11 +103,186 @@
     margin-left: 296px;
     margin-top: 13px;
 }
-.fish{
+
+.fish {
     position: absolute;
     width: 32px;
     height: 32px;
     flex-shrink: 0;
     margin-left: 304px;
     margin-top: 20px;
+}
+
+.arrow_rigth {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+.Wednesday {
+    position: absolute;
+    color: #FFFFFF;
+    width: 89;
+    height: 17;
+    top: 85px;
+    left: 110px;
+    font-family: League Spartan;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.may {
+    position: absolute;
+    color: rgba(255, 244, 244, 0.5);
+    width: 80;
+    height: 13;
+    top: 120px;
+    left: 145px;
+    font-family: League Spartan;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.arrow_left {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 260px;
+}
+
+.eclips1 {
+    position: absolute;
+    color: #9E00FF;
+    width: 190;
+    height: 190;
+    top: 197px;
+    left: 85px;
+    border-width: 24px;
+}
+
+.eclips2 {
+    position: absolute;
+    width: 82;
+    height: 82;
+    top: 227px;
+    left: 115px;
+    border-width: 24px;
+}
+
+.eclips3 {
+    position: absolute;
+    width: 82;
+    height: 82;
+    top: 227px;
+    left: 115px;
+    border-width: 24px;
+}
+
+.text1 {
+    position: absolute;
+    color: #FFFFFF;
+    width: 55.87220001220703;
+    height: 46.01001739501953;
+    top: 270px;
+    left: 152px;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 156;
+    height: 105;
+    top: 450px;
+    left: 15px;
+    border-radius: 8px;
+}
+
+.rectangle1_in {
+    position: absolute;
+    width: 20;
+    height: 20;
+    top: 460px;
+    left: 145px;
+}
+
+.sleeptime {
+    position: absolute;
+    width: 77;
+    height: 17;
+    top: 443px;
+    left: 30px;
+    font-family: League Spartan;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(255, 244, 244, 0.5);
+}
+
+.hours {
+    position: absolute;
+    width: 77;
+    height: 17;
+    top: 492px;
+    left: 30px;
+}
+
+.frame {
+    position: absolute;
+    width: 77;
+    height: 17;
+    top: 525px;
+    left: 30px;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 156;
+    height: 105;
+    top: 450px;
+    right: 15px;
+    border-radius: 8px;
+}
+
+.rectangle2_in {
+    position: absolute;
+    width: 20;
+    height: 20;
+    top: 460px;
+    right: 22px;
+}
+
+.sleeptime2 {
+    position: absolute;
+    width: 77;
+    height: 17;
+    top: 443px;
+    right: 65px;
+    font-family: League Spartan;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(255, 244, 244, 0.5);
+}
+
+.huwi {
+    position: absolute;
+    width: 77;
+    height: 17;
+    top: 492px;
+    right: 107px;
+}
+.huwi2 {
+    position: absolute;
+    width: 77;
+    height: 17;
+    top: 525px;
+    right: 80px;
 }
