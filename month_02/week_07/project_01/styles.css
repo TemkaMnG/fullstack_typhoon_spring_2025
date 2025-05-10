@@ -279,6 +279,7 @@
     top: 492px;
     right: 107px;
 }
+
 .huwi2 {
     position: absolute;
     width: 77;
@@ -286,3 +287,109 @@
     top: 525px;
     right: 80px;
 }
+
+.downbor {
+    position: absolute;
+    border-radius: 4px;
+    background: #44C7CF;
+    width: 32px;
+    height: 51px;
+    flex-shrink: 0;
+    top: 580px;
+    right: 312px;
+}
+
+.downbor1 {
+    position: absolute;
+    border-radius: 4px;
+    background: #4888F6;
+    width: 64px;
+    height: 51px;
+    flex-shrink: 0;
+    top: 580px;
+    right: 245px;
+}
+
+.downbor2 {
+    position: absolute;
+    border-radius: 4px;
+    background: #44C7CF;
+    width: 17px;
+    height: 51px;
+    flex-shrink: 0;
+    top: 580px;
+    right: 225px;
+}
+
+.downbor3 {
+    position: absolute;
+    border-radius: 4px;
+    background: #E07A49;
+    width: 33px;
+    height: 51px;
+    flex-shrink: 0;
+    top: 580px;
+    right: 189px;
+}
+
+.downbor4 {
+    position: absolute;
+    border-radius: 4px;
+    background: #4888F6;
+    width: 84px;
+    height: 51px;
+    flex-shrink: 0;
+    top: 580px;
+    right: 102px;
+}
+
+.downbor5 {
+    position: absolute;
+    border-radius: 4px;
+    background: #E07A49;
+    width: 15px;
+    height: 51px;
+    flex-shrink: 0;
+    top: 580px;
+    right: 84px;
+}
+
+.downbor6 {
+    position: absolute;
+    border-radius: 4px;
+    background: #4888F6;
+    width: 9px;
+    height: 51px;
+    flex-shrink: 0;
+    top: 580px;
+    right: 72px;
+}
+
+.downbor7 {
+    position: absolute;
+    border-radius: 4px;
+    background: #44C7CF;
+    width: 54px;
+    height: 51px;
+    flex-shrink: 0;
+    top: 580px;
+    right: 15px;
+}
+
+.moon12 {
+    color: #FFFFFF;
+    display: flex;
+}
+
+.pmtime {
+    position: absolute;
+    top: 640px;
+    right: 260px;
+}
+
+.amtime {
+    position: absolute;
+    top: 640px;
+    right: 20px;
+}
+

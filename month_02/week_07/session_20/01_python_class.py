@@ -7,8 +7,8 @@ class Dog:
         self.breed = breed  # Instance attribut
 
 
-fido = Dog("Fido", "Golden Retriever")
-rex = Dog("Rex", "German Shepherd")
+fido = Dog("Fido", "Golden Retriever")  # object fido
+rex = Dog("Rex", "German Shepherd")     # rex object
 
 print(Dog.species)  # Output: Canis familiaris
 print(fido.species) # Output: Canis familiaris

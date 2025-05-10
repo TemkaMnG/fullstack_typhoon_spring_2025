@@ -1,0 +1,184 @@
+@font-face {
+    font-family: Moul;
+    src: url(./fonts/Moul-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+.bodys {
+    background: #F7F7F7;
+    max-width: 1440px;
+    max-height: 100vh;
+    margin: 0 auto;
+}
+
+.headers {
+    width: 100%;
+    display: flex;
+    width: auto;
+    height: 86px;
+    flex-shrink: 0;
+    background: #FFF;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    color: #212121;
+    font-family: Moul;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 64px;
+}
+
+.menus {
+    display: flex;
+    gap: 30px;
+}
+
+.menus a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.butmenu {
+    display: flex;
+    gap: 30px;
+    margin-right: 64px;
+}
+
+.menuss {
+    color: #212121;
+    font-family: Lato;
+    font-size: 20px;
+
+}
+
+.menuss a {
+    padding: 2px;
+    color: black;
+}
+
+.menusss {
+    display: inline-flex;
+    padding: 1px 32px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    background: #4BAB66;
+}
+
+.a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+.pictures {
+    width: 552px;
+    flex-shrink: 0;
+    margin-left: 64px;
+    margin-top: 281px;
+}
+
+.files {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    max-width: 647.75px;
+}
+
+.files1 {
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.garchig {
+    width: 647.75px;
+    color: #212121;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 65px;
+    /* 135.417% */
+    margin-left: 64px;
+}
+
+.text {
+    width: 648px;
+    color: #212121;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    margin-left: 64px;
+}
+
+.butts {
+    display: flex;
+    gap: 32px;
+    margin-top: 64px;
+    margin-left: 64px;
+}
+
+.but1 {
+
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #4BAB66;
+    border: none;
+
+}
+
+.but1 a {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.but2 {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #D8E392;
+    border: none;
+}
+
+.but2 a {
+    color: #212121;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
