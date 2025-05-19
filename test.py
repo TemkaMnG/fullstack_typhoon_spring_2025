@@ -1,6 +1,4 @@
-жагсаалт = ["нэг", "хоёр", "гурав"]
-for үг in жагсаалт:
-    print(үг)
-
-for i in range(10):  # 0-оос 9 хүртэл
-    print(i)
+def sandwich(word):
+    if len(word) != 3:
+        return "Алдаа: Үг нь яг 3 үсэгтэй байх ёстой"
+    return word[0] + word[2]

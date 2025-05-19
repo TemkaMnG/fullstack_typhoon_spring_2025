@@ -1,7 +1,6 @@
 class Dog:
     """Энгийн нохой класс"""
-   
-   
+
     pass
 
 banhar = Dog()  # object - bodit zuil
