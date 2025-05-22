@@ -264,6 +264,121 @@ input[type="text"] {
     margin: 0;
 }
 
-.inactive, .active {
+.inactive,
+.active {
     width: 24px;
+}
+
+
+/* Task container */
+
+.task-container {
+    position: absolute;
+    width: 490px;
+    height: 403.5px;
+    flex-shrink: 0;
+    border-radius: 48px;
+    background: #FFF;
+    bottom: 77.5px;
+    left: 230px;
+
+}
+
+.task-container .line {
+    position: absolute;
+    width: 1px;
+    height: 176px;
+    background: #000;
+    border: 1px dotted white;
+    margin-left: 38px;
+    top: 115.5px;
+}
+
+p.task-date {
+    color: #212121;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+
+.task-container .task {
+    display: flex;
+    gap: 16px;
+    margin-left: 24px;
+    align-items: center;
+    margin-bottom: 54px;
+}
+
+.task .todo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.todo .name {
+    color: #212121;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.todo .time {
+    color: rgba(33, 33, 33, 0.80);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.task .icon {
+    position: relative;
+
+}
+
+.task .icon .check {
+    width: 16.754px;
+    height: 12.575px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 10.01px;
+    left: 7.83px;
+}
+
+.task .icon .circ {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.box {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #F1FF50;
+    right: 24px;
+    bottom: 32px;
+}
+
+.tasks .boxs .plus {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    top: 315.5px;
+    left: 410px;
 }
