@@ -15,9 +15,10 @@ try:
     sound_file = os.path.join('sound', "beep.wav")
     beep_sound = pygame.mixer.Sound(sound_file)
 except:
-    print("Warning: SOund file not found. Make sure to create a "
-          "'sounds' folder and"
-           "add a 'beep.wav' file, or change the path to your sound file." 
+    print(
+        "Warning: SOund file not found. Make sure to create a "
+        "'sounds' folder and"
+        "add a 'beep.wav' file, or change the path to your sound file." 
     )
     beep_sound = None
 
@@ -29,7 +30,7 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-            
+
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_SPACE and beep_sound:
                 beep_sound.play()

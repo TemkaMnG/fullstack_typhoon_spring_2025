@@ -1,0 +1,269 @@
+@font-face {
+    font-family: Lato;
+    src: url(../forntend/fonts/Lato-Bold.ttf);
+}
+
+.main {
+    max-width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background: #d1ffdb;
+    position: relative;
+}
+
+.meeting-title-container {
+    position: absolute;
+    top: 78px;
+    right: 312px;
+    width: 440px;
+    height: 403.5px;
+    flex-shrink: 0;
+    border-radius: 48px;
+    background: #3D663F;
+}
+
+.meeting-title-container p {
+    position: absolute;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    top: 32px;
+    left: 24px;
+    margin: 0;
+}
+
+.meeting-content-container {
+    position: absolute;
+    top: 171px;
+    right: 312px;
+    width: 440px;
+    height: 388px;
+    flex-shrink: 0;
+    border-radius: 48px;
+    background: #FFF;
+    top: 171px;
+    right: 312px;
+}
+
+.meeting-content-container .title-text {
+    position: relative;
+    color: #212121;
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.title-container,
+.date-container {
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+.date-title-container {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin: 0;
+}
+
+.date-container input,
+.title-container input {
+    display: flex;
+    width: 357px;
+    padding: 10px 8px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #f6f6f6;
+    border: none;
+}
+
+input[type="text"] {
+    color: rgba(6, 23, 44, 0.6);
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+}
+
+/* Time Show */
+
+.time-container {
+    margin-left: 24px;
+    display: flex;
+    gap: 20px;
+}
+
+.time-title {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.start-time input,
+.end-time input {
+    display: flex;
+    width: 157px;
+    padding: 10px 8px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #f6f6f6;
+    border: none;
+}
+
+.submit-button {
+    display: flex;
+    width: 375px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    background: #F1FF50;
+    border: none;
+    margin: 24px;
+}
+
+/*  Calendar */
+
+.calendar-container {
+
+    position: relative;
+    width: 440px;
+    height: 405px;
+    flex-shrink: 0;
+    border-radius: 48px;
+    background: linear-gradient(0deg, #3D663F 0%, #3D663F 100%), #FFF;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.12);
+    top: 154px;
+    left: 176px;
+
+}
+
+.calendar-title {
+
+    position: relative;
+    color: #F1FF50;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    top: 32px;
+    left: 24px;
+    margin: 0;
+}
+
+.calendar-header {
+    margin-left: 24px;
+    margin-top: 8px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar-header>p {
+    position: relative;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 5px;
+}
+
+.icon-container {
+    display: flex;
+    gap: 16px;
+}
+
+.icon-container .first,
+.icon-container .second {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 99px;
+    background: #E4FFEA;
+}
+
+.calendar-days-container {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.calendar-days-container .week-header {
+    gap: 46.5px;
+    display: flex;
+}
+
+.calendar-days-container .header {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.calendar-days-container .separator {
+    width: 380px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.calendar-days-container .days .days-row {
+    display: flex;
+    gap: 43px;
+    margin-top: 20px;
+}
+
+.calendar-days-container .days1 .days-row {
+    display: flex;
+    gap: 45px;
+    margin-top: 10px;
+}
+
+.calendar-days-container .days2 .days-row {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.inactive {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.active {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.inactive, .active {
+    width: 24px;
+}
